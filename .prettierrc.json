@@ -1,0 +1,22 @@
+{
+    "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+    "semi": true,
+    "trailingComma": "es5",
+    "endOfLine": "auto",
+    "printWidth": 110,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "tabWidth": 4,
+    "importOrderSeparation": true,
+    "importOrder": [
+        "^.+\\.css$",
+        "^(@?react|@preact|node|leaflet|geojson|proj4|@turf|d3)",
+        "^@(/interfaces|/lib/|/store|/utils|/global)",
+        "^(@/components|sonner|@radix)",
+        "^@fortawesome",
+        "^@/assets",
+        "^.+\\.svg$",
+        "^\\./",
+        "^\\.\\./"
+    ]
+}
